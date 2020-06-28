@@ -1,0 +1,85 @@
+/*customize basic context*/
+li {
+  margin: 50px 50px;
+}
+
+header {
+  background-color: white;
+}
+
+body {
+  background-color: silver;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  background-color: red;
+  word-spacing: 100px;
+}
+
+/*start editing containers*/
+#container {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+#image {
+  width: 200px;
+  border-radius: 50%;
+  border-width: 20px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+#image2 {
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+}
+
+#footer {
+  text-align: center;
+  font-family: cursive;
+  font-size: 18pt;
+  background-color: silver;
+  height: 100%;
+}
+
+/*customize the text*/
+#intro {
+  color: red;
+  font-size: 20pt;
+  font-family: arial;
+  padding: 20px;
+  text-align: center;
+  display: inline-block
+}
+
+#about {
+  color: white;
+  background-color: black;
+  font-family: arial;
+  font-size: 15pt;
+  padding: 10px;
+}
+
+#contact {
+  text-align: center;
+  background-color: black;
+  color: red;
+  padding: 10px;
+}
+
+/*styling the links*/
+a:link {color: yellow;}
+a:hover {color: white;}
+a:visited {color: blue;}
+a:active {color: lime;}
